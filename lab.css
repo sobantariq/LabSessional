@@ -1,0 +1,95 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 30;
+  height: 70px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  background-image: url("logo.png");
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  font-size: 25px;
+  color: #f7f7f7;
+}
+
+.get-started-btn {
+  margin-left: 25px;
+  background: #198c67;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 30px 11px 30px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.container {
+  padding-top: 140px;
+}
+
+.head {
+  font-size: 80px;
+  color: black;
+  font-weight: bold;
+}
+
+.smallhead {
+  font-size: 30px;
+}
+.span {
+  font-weight: bold;
+}
+
+.btn-get-started {
+  margin-left: 25px;
+  background: #198c67;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 30px 11px 30px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.whatwe {
+  text-align: center;
+  padding-left: 270px;
+  padding-top: 150px;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.smallhead2{
+    padding-left: 270px;
+    font-size: 15px;
+}
